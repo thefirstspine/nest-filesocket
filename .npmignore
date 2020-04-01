@@ -1,0 +1,17 @@
+.DS_Store
+coverage/
+docs/
+src/
+lib/test/
+resources/
+.prettierrc
+.gitignore
+tsconfig.json
+typedoc.js
+jest.config.js
+yarn.lock
+.vscode
+renovate.json
+.eslintrc.js
+.github
+*.tgz
