@@ -1,6 +1,6 @@
 {
-  "name": "nest-filesocket",
-  "version": "1.0.0",
+  "name": "@thefirstspine/nest-filesocket",
+  "version": "1.1.0",
   "description": "Call NestJS through local file socket",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -32,5 +32,8 @@
     "test": "jest",
     "lint": "yarn run eslint ./src/**/*.ts",
     "format": "prettier --write ./src/**/*.{js,ts}"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

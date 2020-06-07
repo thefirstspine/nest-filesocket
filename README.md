@@ -5,7 +5,7 @@ Call your NestJS app through local file socket
 ## Installation
 
 ```
-npm i nest-filesocket
+npm i @thefirstspine/nest-filesocket
 ```
 
 ## Usage
@@ -30,7 +30,7 @@ imports: [
 Import the writer service:
 
 ```
-import { WriterService } from 'nest-filesocket';
+import { WriterService } from '@thefirstspine/nest-filesocket';
 ```
 
 ```
